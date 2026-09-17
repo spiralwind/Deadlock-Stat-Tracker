@@ -1,0 +1,25 @@
+# Python virtual environment
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# JavaScript dependencies and build output
+node_modules/
+deadlock-dashboard/node_modules/
+deadlock-dashboard/dist/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
